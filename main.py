@@ -19,3 +19,14 @@ if result:
     print("Match Found")
 else:
     print("No Match")
+split_array = re.split(r"\s",string)
+print(split_array)
+
+total_i = (re.findall(r"i",string))
+print(total_i)
+occurance_i = len(total_i)
+print(occurance_i)
+
+sub = re.sub(r"check","test",string)
+print(sub)
+print(string.split())
